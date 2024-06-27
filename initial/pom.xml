@@ -58,7 +58,7 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/countries.xsd</source>
+						<source>${project.basedir}/src/main/resources/xsd/countries.xsd</source>
 					</sources>
 				</configuration>
 			</plugin>
