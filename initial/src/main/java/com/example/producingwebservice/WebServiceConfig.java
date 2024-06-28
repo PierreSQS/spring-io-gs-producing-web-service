@@ -29,7 +29,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
     }
 
 
-    @Bean
+    @Bean(name = {"countries"})
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema xsdSchema) {
         DefaultWsdl11Definition defaultWsdl11Definition = new DefaultWsdl11Definition();
         defaultWsdl11Definition.setPortTypeName("CountriesPort");
